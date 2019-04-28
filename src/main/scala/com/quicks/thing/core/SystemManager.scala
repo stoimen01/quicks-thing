@@ -1,7 +1,7 @@
-package com.quicks.core
+package com.quicks.thing.core
 
 import akka.actor.{Actor, ActorLogging, ActorRef, Props}
-import com.quicks.remote.ConnectionManager
+import com.quicks.thing.remote.ConnectionManager
 
 class SystemManager(wsUrl: String) extends Actor with ActorLogging {
 

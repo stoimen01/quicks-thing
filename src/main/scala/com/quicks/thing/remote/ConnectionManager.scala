@@ -1,7 +1,7 @@
-package com.quicks.remote
+package com.quicks.thing.remote
 
 import akka.actor.{Actor, ActorLogging, Props}
-import com.quicks.remote.ws.{WebSocketAgent, WsInTextMsg}
+import com.quicks.thing.remote.ws.{WebSocketAgent, WsInTextMsg}
 
 class ConnectionManager(wsUrl: String) extends Actor with ActorLogging {
 

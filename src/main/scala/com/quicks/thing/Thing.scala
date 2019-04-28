@@ -1,11 +1,11 @@
-package com.quicks
+package com.quicks.thing
 
 import akka.actor.{ActorSystem, Props}
-import com.quicks.core.SystemManager
+import com.quicks.thing.core.SystemManager
 
 import scala.io.StdIn
 
-object Quicks {
+object Thing {
 
   def main(args: Array[String]) {
 
@@ -20,4 +20,3 @@ object Quicks {
   }
 
 }
-

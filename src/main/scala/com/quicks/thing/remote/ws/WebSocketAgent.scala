@@ -1,4 +1,4 @@
-package com.quicks.remote.ws
+package com.quicks.thing.remote.ws
 
 import akka.{Done, NotUsed}
 import akka.actor.{Actor, ActorLogging, ActorRef, Timers}

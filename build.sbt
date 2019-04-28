@@ -4,7 +4,7 @@ version := "0.1"
 
 scalaVersion := "2.12.8"
 
-mainClass in assembly := Some("com.quicks.Quicks")
+mainClass in assembly := Some("com.quicks.thing.Thing")
 
 libraryDependencies ++= {
   val akkaV = "2.5.22"

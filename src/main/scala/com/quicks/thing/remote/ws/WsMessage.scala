@@ -1,4 +1,4 @@
-package com.quicks.remote.ws
+package com.quicks.thing.remote.ws
 
 sealed trait WsMessage
 
